@@ -1,0 +1,43 @@
+/* src/pages/account/Account.css */
+.account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f0fdf4;
+}
+
+.account-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.account-card input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+.account-card button {
+  padding: 10px 20px;
+  background-color: #1e7d22;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.account-card p {
+  margin-top: 15px;
+  color: #1e7d22;
+  cursor: pointer;
+  font-weight: bold;
+}

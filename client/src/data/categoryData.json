@@ -1,0 +1,37 @@
+[
+   {
+    "name": "All",
+    "description": "Browse all the products.",
+    "image": "/assets/all.jpg"
+  },
+  {
+    "name": "Food",
+    "description": "Fresh and hot meals delivered to you.",
+    "image": "/assets/food.jpg"
+  },
+  {
+    "name": "Groceries",
+    "description": "Daily essentials and household items.",
+    "image": "/assets/grocery.jpg"
+  },
+  {
+    "name": "Study supply",
+    "description": "Latest tech gadgets and accessories.",
+    "image": "/assets/study_suppy.jpg"
+  },
+  {
+    "name": "Clothing",
+    "description": "Trendy and comfortable outfits.",
+    "image": "/assets/clothing.jpg"
+  },
+   {
+    "name": "Skincare",
+    "description": "Fresh and hot meals delivered to you.",
+    "image": "/assets/skincare.jpg"
+  },
+   {
+    "name": "Healthcare",
+    "description": "Fresh and hot meals delivered to you.",
+    "image": "/assets/healthcare.jpg"
+  }
+]

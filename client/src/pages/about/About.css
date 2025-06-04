@@ -1,0 +1,16 @@
+.about-container {
+  padding: 40px;
+  background-color: #f6fff4;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+}
+
+.about-container h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}

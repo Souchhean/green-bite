@@ -1,0 +1,168 @@
+.layout {
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #158c19; /* Light green */
+}
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #f9fdf9;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.search-box {
+  display: block;
+  width: 80%;             /* Makes it narrower so it doesn't stretch full width */
+  margin: 0 auto 20px;    /* Auto left/right margin centers it */
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
+.category-dropdown {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  padding: 10px;
+  background-color: #e6f4ea;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:hover {
+  background-color: #e6f4ea;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.navbar {
+  background-color: #d4edda;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-center a:hover {
+  color: #2e7d32;
+}
+
+.navbar-center span {
+  color: #888;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: #0f6e02;
+  cursor: pointer;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+/* Add these to your Navbar.css */
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+  flex: 1;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #f9fdf9;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  height: 100vh;
+}
+
+.main-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+  
+}
+
+/* Keep all your existing styles below */
